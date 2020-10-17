@@ -19,11 +19,6 @@ pickle_in = open("model.pkl","rb")
 classifier = pickle.load(pickle_in)
 
 
-@app.route('/')
-def welcome():
-    return "Welcome_all"
-
-
 @app.route('/predict',methods = ["Get"])
 def predict_diabetes():
     
