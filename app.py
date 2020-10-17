@@ -33,15 +33,15 @@ def predict_diabetes():
         in : query
         type: number
         required : true
-      - name : BloodPressure(mm Hg)
+      - name : BloodPressure
         in : query
         type: number
         required : true
-      - name : SkinThickness(mm)
+      - name : SkinThickness
         in : query
         type: number
         required : true
-      - name : Insulin(mu U/ml)
+      - name : Insulin
         in : query
         type: number
         required : true
