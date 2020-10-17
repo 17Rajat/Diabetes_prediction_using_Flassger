@@ -19,7 +19,7 @@ pickle_in = open("model.pkl","rb")
 classifier = pickle.load(pickle_in)
 
 
-@app.route('/predict',methods = ["Get"])
+@app.route('/predict_diabetes',methods = ["Get"])
 def predict_diabetes():
     
     """Lets find out whether a person is diabetic or not.
