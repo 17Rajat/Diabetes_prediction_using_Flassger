@@ -1,4 +1,4 @@
-# Diabetes_prediction
+# Diabetes_prediction using Flassger
 This repository consists of all the files which are required from prediction of model to deployment, which predicts whether a person is diabetic or not.
 
 This model is deployed with the help of Flasgger(i.e swagger api, which is used as Front-end for the web app) and heroku(a cloud platform).
